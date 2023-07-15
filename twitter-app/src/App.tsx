@@ -34,7 +34,7 @@ const App: React.FC = () => {
   return (
     <>
       {user.uid ? (
-        <div className={styles.css}>
+        <div className={styles.app}>
           <Feed />
         </div>
       ) : (
